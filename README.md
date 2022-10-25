@@ -29,11 +29,9 @@ Project Organization
     │   │   ├── Word2vec.ipynb    <- Notebook with word2vec model experiments
     │   │   ├── doc2vec&clustering.ipynb   <- Notebook with doc2vec model experiments and clustering
     │   │   └── pos_encoding&clustering.ipynb <- Notebook with GPT tokenizer experiments and clustering 
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
+    │   │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
+    │   │
     ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
     │   └── figures        <- Generated graphics and figures to be used in reporting
     │
