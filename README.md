@@ -22,16 +22,16 @@ Project Organization
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
     ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │   │   ├── "EDA_&_find_duplicate_ipynb".ipynb       <- Notebook with EDA and experimnets with BERT
-    │   │   ├── EDA_&_clean_data.ipynb     <- Notebook with EDA and clean data
-    │   │   ├── Samples.ipynb     <- Notebook clean data
-    │   │   ├── TF_IDF experiment.ipynb     <- Notebook with experiments with tf idf vector tokenizer and log reg for detect pairs
-    │   │   ├── Word2vec.ipynb    <- Notebook with word2vec model experiments
-    │   │   ├── doc2vec&clustering.ipynb   <- Notebook with doc2vec model experiments and clustering
-    │   │   └── pos_encoding&clustering.ipynb <- Notebook with GPT tokenizer experiments and clustering 
-    │   │
+    │      ├── "EDA_&_find_duplicate_ipynb".ipynb       <- Notebook with EDA and experimnets with BERT
+    │      ├── EDA_&_clean_data.ipynb     <- Notebook with EDA and clean data
+    │      ├── Samples.ipynb     <- Notebook clean data
+    │      ├── TF_IDF experiment.ipynb     <- Notebook with experiments with tf idf vector tokenizer and log reg for detect pairs
+    │      ├── Word2vec.ipynb    <- Notebook with word2vec model experiments
+    │      ├── doc2vec&clustering.ipynb   <- Notebook with doc2vec model experiments and clustering
+    │      └── pos_encoding&clustering.ipynb <- Notebook with GPT tokenizer experiments and clustering 
+    │   
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │   │
+    │   
     ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
     │   └── figures        <- Generated graphics and figures to be used in reporting
     │
