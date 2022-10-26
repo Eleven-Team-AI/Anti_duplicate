@@ -2,7 +2,8 @@ Duplicate search
 ==============================
 ## Project description
 Service for search duplicate in companies names. Service use BERT tokenizer and search by cosinus distance.
-Our model expect that model use embindings 
+IMPORTANT!
+Our model expect that in database for release exist only unique records for companies and one record match one company.
 ## Dataset description
 We use [Educaton Dataset](https://drive.google.com/file/d/1e9bdr7wcQX_YBudQcsKj-sMoIGxQOlK4/view?usp=sharing) for search duplicates.
 
