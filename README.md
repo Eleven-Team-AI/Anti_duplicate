@@ -45,8 +45,6 @@ We found several similar posts:
 Record number: 18895, content jx nippon oil gas exploration technical service
 ```
 ```
-
-
 Project Organization
 ------------
 
@@ -103,6 +101,7 @@ Project Organization
     │
     └── config.yaml        <- config file for training and preprocessing
 ------------
+```
 ##Experiments
 
 ##Metrics
