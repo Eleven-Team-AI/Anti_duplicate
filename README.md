@@ -2,15 +2,22 @@ Duplicate search
 ==============================
 ## Project description
 Service for search duplicate in companies names. Service use BERT tokenizer and search by cosinus distance.
-
+Our model expect that model use embindings 
 ## Dataset description
 We use [Educaton Dataset] (https://drive.google.com/file/d/1e9bdr7wcQX_YBudQcsKj-sMoIGxQOlK4/view?usp=sharing) for search duplicates.
 
-##Start project
+## Start project
 ```bash
 git clone https://github.com/Eleven-Team-AI/Anti_duplicate # clone
 cd Anti_duplicate
 pip install -r requirements.txt  # install
+python3 -m src --predict config.yaml #start predict example
+```
+Expecting result
+```bash
+Enter company name: jx nippon oil
+We found several similar posts:
+Record number: 18895, content jx nippon oil gas exploration technical service
 ```
 For start example:
 1. Download [model] (https://drive.google.com/file/d/1NN8536lIojlTqyoS_0XaJ6aZ-mUdH_RM/view) in path [/models] (https://github.com/Eleven-Team-AI/Anti_duplicate/tree/main/models)
