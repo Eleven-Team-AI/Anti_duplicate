@@ -102,8 +102,8 @@ Project Organization
     │       └── visualize.py
     │
     └── config.yaml        <- config file for training and preprocessing
+------------
+##Experiments
 
-## Experiments
-
-## Metrics
+##Metrics
 
