@@ -108,16 +108,16 @@ Project Organization
 
 First of all, we started with the analysis and cleaning of the data, the result can be seen in `notebooks/EDA_&_clean_data.ipynb`. 
 Our first idea was to solve this problem as a classification problem. We classified pairs of names in the table as duplicates and non-duplicates.
-####  Sentence BERT
+####Sentence BERT
 To create embeddings, we tried a pre-trained BERT and then re-trained it on our data.
 then we searched for close embeddings using cosine distance over a predefined trash hold.
 BERT model name you can see in `config.yaml` at `model_name`. Experiments and results you can see in 
 `notebooks/EDA_&_clean_data.ipynb`. 
-#### TF-IDF
+####TF-IDF
 We trained Logistic Regression on embeddings built with TF-IDF.
 Experiments and results you can see in `notebooks/TF_IDF experiment.ipynb`.
 
-### Search for dublicates
+###Search for dublicates
 
 We used the classification problem to measure the metrics and choose a model for finding duplicates.
 The search for duplicates is the search for top K instances that are close in cosine distance.
