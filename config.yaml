@@ -3,6 +3,7 @@ data:
   processed_data_path: '/Users/dmitry/Library/CloudStorage/GoogleDrive-ceo@gangai.pro/Мой диск/Matching_string_project/Data/cleaned.csv'
   target_col: 'is_duplicate'
   index_col: 'pair_id'
+  text_col: 'name_1'
 
 train:
   RAND: 10
