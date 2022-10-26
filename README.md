@@ -133,4 +133,7 @@ We chose Finetuned BERT, experiments and work examples you can see in `notebooks
 | TF-IDF        |Logistic Regression         |0.617         | 0.920        |0.573/0.920   |
 
 
+## Speed
+<img width="630" alt="Снимок экрана 2022-10-26 в 14 51 52" src="https://user-images.githubusercontent.com/99802770/198031037-c7d8ec02-396a-4891-b9a4-ac7cbcdeaeed.png">
+
 
