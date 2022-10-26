@@ -1,13 +1,12 @@
 """
 Pipeline of data preparation and model training
 """
+import joblib
+import yaml
+
 from .data.get_data import get_dataset
 from .data.processing_data import preparing_data, get_data_loader
-from .models.get_bert_embeddings import get_embeddings
 from .models.train_model import training_saving_bert
-from .models.predict_model import *
-import yaml
-import joblib
 
 
 def pipline_training(config_path: str) -> None:

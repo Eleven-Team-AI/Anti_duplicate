@@ -1,11 +1,12 @@
 """
 Preparing and clean data
 """
-import pandas as pd
 import string
+
+import nltk
+import pandas as pd
 from sentence_transformers import InputExample
 from torch.utils.data import DataLoader
-import nltk
 
 nltk.download('stopwords')
 from nltk.corpus import stopwords

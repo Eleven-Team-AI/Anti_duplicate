@@ -1,11 +1,11 @@
 """
 Training model
 """
-from sentence_transformers import SentenceTransformer, losses
-import torch
 from typing import Callable
+
+import torch
+from sentence_transformers import SentenceTransformer, losses
 from torch.utils.data import DataLoader
-import joblib
 
 
 def training_saving_bert(model_name: str, dataloader: DataLoader, n_epoch: int) -> Callable:
