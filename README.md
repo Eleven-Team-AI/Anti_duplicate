@@ -6,6 +6,40 @@ Service for search duplicate in companies names. Service use BERT tokenizer and 
 ## Dataset description
 We use [Educaton Dataset] (https://drive.google.com/file/d/1e9bdr7wcQX_YBudQcsKj-sMoIGxQOlK4/view?usp=sharing) for search duplicates.
 
+##Start project
+```bash
+git clone https://github.com/Eleven-Team-AI/Anti_duplicate # clone
+cd Anti_duplicate
+pip install -r requirements.txt  # install
+```
+For start example:
+1. Download [model] (https://drive.google.com/file/d/1NN8536lIojlTqyoS_0XaJ6aZ-mUdH_RM/view) in path [/models] (https://github.com/Eleven-Team-AI/Anti_duplicate/tree/main/models)
+2. Download [prepared embeddings] (https://drive.google.com/file/d/1EO_UrArhIwpcY32HA2ZQ5E5clyxFwiUW/view) in path [/data/processed] (https://github.com/Eleven-Team-AI/Anti_duplicate/tree/main/data/processed) 
+3. Unzip downloaded embiddings
+
+Existing parametr for start
+```bash
+python3 -m src --help
+```
+```bash
+--preprocess - parametr for create bert embedings(requier GPU)
+--train - parametr for train model
+--predict - parametr for predict group
+```
+Preprocess
+```bash
+python3 -m src --preprocess config.yaml
+```
+Train
+```bash
+python3 -m src --train config.yaml
+```
+Predict
+```bash
+python3 -m src --predict config.yaml
+```
+
+
 Project Organization
 ------------
 
