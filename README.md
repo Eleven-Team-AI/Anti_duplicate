@@ -13,8 +13,8 @@ cd Anti_duplicate
 pip install -r requirements.txt  # install
 ```
 For start example:
-1. Download [model](https://drive.google.com/file/d/1NN8536lIojlTqyoS_0XaJ6aZ-mUdH_RM/view) in path [/models] (https://github.com/Eleven-Team-AI/Anti_duplicate/tree/main/models)
-2. Download [prepared embeddings](https://drive.google.com/file/d/1EO_UrArhIwpcY32HA2ZQ5E5clyxFwiUW/view) in path [/data/processed] (https://github.com/Eleven-Team-AI/Anti_duplicate/tree/main/data/processed) 
+1. Download [model](https://drive.google.com/file/d/1NN8536lIojlTqyoS_0XaJ6aZ-mUdH_RM/view) in path [/models](https://github.com/Eleven-Team-AI/Anti_duplicate/tree/main/models)
+2. Download [prepared embeddings](https://drive.google.com/file/d/1EO_UrArhIwpcY32HA2ZQ5E5clyxFwiUW/view) in path [/data/processed](https://github.com/Eleven-Team-AI/Anti_duplicate/tree/main/data/processed) 
 3. Unzip downloaded embiddings
 
 Existing parametr for start
