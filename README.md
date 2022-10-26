@@ -82,8 +82,11 @@ Project Organization
     ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
     ├── src                <- Source code for use in this project.
     │   ├── __init__.py    <- Makes src a Python module
-    │   │
+    │   ├── __main__.py    <- Main file for start module with params
+    │   ├── pipelines.py   <- Main file with pipline functions
     │   ├── data           <- Scripts to download or generate data
+    │   │   ├── get_data.py
+    │   │   ├── processing_data.py
     │   │   └── make_dataset.py
     │   │
     │   ├── features       <- Scripts to turn raw data into features for modeling
@@ -92,12 +95,13 @@ Project Organization
     │   ├── models         <- Scripts to train models and then use trained models to make
     │   │   │                 predictions
     │   │   ├── predict_model.py
+    │   │   ├── get_bert_embeddings.py
     │   │   └── train_model.py
     │   │
     │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
     │       └── visualize.py
     │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+    └── config.yaml        <- config file for training and preprocessing
 
 ## Experiments
 
