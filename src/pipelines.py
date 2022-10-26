@@ -81,7 +81,7 @@ def pipeline_prediction(config_path: str) -> None:
     data_config = config['data']
     train_config = config['train']
 
-    query = input()
+    query = input('Enter company name: ')
 
     # load staff
     embeddings = joblib.load(train_config['embeddings_path'])

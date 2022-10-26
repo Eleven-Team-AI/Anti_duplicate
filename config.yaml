@@ -1,6 +1,6 @@
 data:
-  raw_data_path: '/Users/dmitry/Library/CloudStorage/GoogleDrive-ceo@gangai.pro/Мой диск/Matching_string_project/Data/train.csv'
-  processed_data_path: '/Users/dmitry/Library/CloudStorage/GoogleDrive-ceo@gangai.pro/Мой диск/Matching_string_project/Data/cleaned.csv'
+  raw_data_path: '/data/processed/train.csv'
+  processed_data_path: '/data/processed/cleaned.csv'
   target_col: 'is_duplicate'
   index_col: 'pair_id'
   text_col: 'name_1'
@@ -10,6 +10,6 @@ train:
   test_size: 0.2
   batch_size: 16
   model_name: 'distilbert-base-nli-mean-tokens'
-  model_path: '/Users/dmitry/Library/CloudStorage/GoogleDrive-ceo@gangai.pro/Мой диск/Matching_string_project/Models/sent_bert.joblib'
+  model_path: '/models/sent_bert.joblib'
   n_epoch: 1
-  embeddings_path: '/Users/dmitry/Library/CloudStorage/GoogleDrive-ceo@gangai.pro/Мой диск/Matching_string_project/Data/embedding.csv'
+  embeddings_path: '/data/processed/embedding.csv'
