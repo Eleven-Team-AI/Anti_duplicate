@@ -4,7 +4,7 @@ Duplicate search
 Service for search duplicate in companies names. Service use BERT tokenizer and search by cosinus distance.
 Our model expect that model use embindings 
 ## Dataset description
-We use [Educaton Dataset] (https://drive.google.com/file/d/1e9bdr7wcQX_YBudQcsKj-sMoIGxQOlK4/view?usp=sharing) for search duplicates.
+We use [Educaton Dataset](https://drive.google.com/file/d/1e9bdr7wcQX_YBudQcsKj-sMoIGxQOlK4/view?usp=sharing) for search duplicates.
 
 ## Start project
 ```bash
@@ -13,8 +13,8 @@ cd Anti_duplicate
 pip install -r requirements.txt  # install
 ```
 For start example:
-1. Download [model] (https://drive.google.com/file/d/1NN8536lIojlTqyoS_0XaJ6aZ-mUdH_RM/view) in path [/models] (https://github.com/Eleven-Team-AI/Anti_duplicate/tree/main/models)
-2. Download [prepared embeddings] (https://drive.google.com/file/d/1EO_UrArhIwpcY32HA2ZQ5E5clyxFwiUW/view) in path [/data/processed] (https://github.com/Eleven-Team-AI/Anti_duplicate/tree/main/data/processed) 
+1. Download [model](https://drive.google.com/file/d/1NN8536lIojlTqyoS_0XaJ6aZ-mUdH_RM/view) in path [/models] (https://github.com/Eleven-Team-AI/Anti_duplicate/tree/main/models)
+2. Download [prepared embeddings](https://drive.google.com/file/d/1EO_UrArhIwpcY32HA2ZQ5E5clyxFwiUW/view) in path [/data/processed] (https://github.com/Eleven-Team-AI/Anti_duplicate/tree/main/data/processed) 
 3. Unzip downloaded embiddings
 
 Existing parametr for start
@@ -63,8 +63,8 @@ Project Organization
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
     ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │      ├── "EDA_&_find_duplicate_ipynb".ipynb       <- Notebook with EDA and experimnets with BERT
-    │      ├── EDA_&_clean_data.ipynb     <- Notebook with EDA and clean data
+    │      ├── BERT_MAIN.ipynb       <- Notebook with EDA and experimnets with BERT
+    │      ├── EDA_&_clean_data.ipynb     <- Notebook with EDA and clean data and clasification
     │      ├── Samples.ipynb     <- Notebook clean data
     │      ├── TF_IDF experiment.ipynb     <- Notebook with experiments with tf idf vector tokenizer and log reg for detect pairs
     │      ├── Word2vec.ipynb    <- Notebook with word2vec model experiments
