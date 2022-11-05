@@ -20,7 +20,7 @@ For start example:
 
 Existing parametr for start
 ```bash
-python3 -m src --help
+python3 -m utils --help
 ```
 ```bash
 --preprocess - parametr for create bert embedings(requier GPU)
@@ -29,15 +29,15 @@ python3 -m src --help
 ```
 Preprocess
 ```bash
-python3 -m src --preprocess config.yaml
+python3 -m utils --preprocess config.yaml
 ```
 Train
 ```bash
-python3 -m src --train config.yaml
+python3 -m utils --train config.yaml
 ```
 Predict
 ```bash
-python3 -m src --predict config.yaml #start predict example
+python3 -m utils --predict config.yaml #start predict example
 ```
 Expecting result
 ```bash
