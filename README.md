@@ -9,6 +9,10 @@ We use [Educaton Dataset](https://drive.google.com/file/d/1e9bdr7wcQX_YBudQcsKj-
 
 ## Start project
 ```bash
+python3 -m venv env
+source env/bin/activate
+```
+```bash
 git clone https://github.com/Eleven-Team-AI/Anti_duplicate # clone
 cd Anti_duplicate
 pip install -r requirements.txt  # install
