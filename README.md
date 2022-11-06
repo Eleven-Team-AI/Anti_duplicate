@@ -52,14 +52,10 @@ Project Organization
     ├── LICENSE
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
+    │   └── processed      <- The final, canonical data sets for modeling.
+    │       ├── cleaned.csv
+    │       ├── test.csv
+    │       └── train.csv
     │
     ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
     │      ├── BERT_MAIN.ipynb       <- Notebook with EDA and experimnets with BERT
@@ -69,36 +65,25 @@ Project Organization
     │      ├── Word2vec.ipynb    <- Notebook with word2vec model experiments
     │      ├── doc2vec&clustering.ipynb   <- Notebook with doc2vec model experiments and clustering
     │      └── pos_encoding&clustering.ipynb <- Notebook with GPT tokenizer experiments and clustering 
-    │   
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │   
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
     │
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
     │
     ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
     ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   ├── __main__.py    <- Main file for start module with params
-    │   ├── pipelines.py   <- Main file with pipline functions
-    │   ├── data           <- Scripts to download or generate data
-    │   │   ├── get_data.py
-    │   │   ├── processing_data.py
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   ├── get_bert_embeddings.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
+    │   ├── pipline        <- Main pipline
+    │   │   └── pipelines.py
+    │   └──  utils
+    │       ├── data
+    │       │   ├── get_data.py
+    │       │   ├── processing_data.py
+    │       │   └── make_dataset.py
+    │       ├── models         <- Scripts to train models and then use trained models to make
+    │       │   │                 predictions
+    │       │   ├── predict_model.py
+    │       │   ├── get_bert_embeddings.py
+    │       │   └── train_model.py
+    │       └── weights <- weights for models
     │
     └── config.yaml        <- config file for training and preprocessing
 ------------
