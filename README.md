@@ -16,6 +16,7 @@ source env/bin/activate
 git clone https://github.com/Eleven-Team-AI/Anti_duplicate # clone
 cd Anti_duplicate
 pip install -r requirements.txt  # install
+dvc pull # get models weights from storage
 ```
 For start example:
 1. Download [model](https://drive.google.com/file/d/1NN8536lIojlTqyoS_0XaJ6aZ-mUdH_RM/view) in path [/models](https://github.com/Eleven-Team-AI/Anti_duplicate/tree/main/models)
