@@ -1,0 +1,4 @@
+outs:
+- md5: 80742681bdd041996c1e52a03ffb4b98
+  size: 12525299
+  path: w2v.pkl

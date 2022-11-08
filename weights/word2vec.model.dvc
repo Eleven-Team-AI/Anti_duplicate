@@ -1,0 +1,4 @@
+outs:
+- md5: a489d603637eb582f606f8d615d1739a
+  size: 30546
+  path: word2vec.model
