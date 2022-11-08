@@ -4,11 +4,11 @@ Pipeline for data preparation, model training and prediction
 import joblib
 import yaml
 
-from utils.data.get_data import get_dataset
-from utils.data.processing_data import preparing_data, get_data_loader
-from utils.models.get_bert_embeddings import get_embeddings
-from utils.models.predict_model import *
-from utils.models.train_model import training_saving_bert
+from src.utils.data.get_data import get_dataset
+from src.utils.data.processing_data import preparing_data, get_data_loader
+from src.utils.models.get_bert_embeddings import get_embeddings
+from src.utils.models.predict_model import find_nearest_idx, show_result
+from src.utils.models.train_model import training_saving_bert
 
 
 def pipline_training(config_path: str) -> None:

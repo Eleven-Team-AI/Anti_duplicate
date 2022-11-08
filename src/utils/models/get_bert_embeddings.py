@@ -21,6 +21,7 @@ def get_embeddings(model: SentenceTransformer,
     if type(data) != str:
         data = data[text_col].to_list()
     # get embeddings
+    data = list(set(data))
     embeddings = model.encode(data, convert_to_tensor=True)
 
     return embeddings

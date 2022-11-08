@@ -1,5 +1,7 @@
-from .pipelines import pipeline_prediction, pipeline_create_embeddings, pipline_training
-import sys 
+import sys
+
+from src.pipeline.pipelines import pipeline_create_embeddings, pipeline_prediction, pipline_training
+
 
 def main(args):
     param_name = args[1]
@@ -14,10 +16,9 @@ def main(args):
     if param_name == '--predict':
         pipeline_prediction(config_path=args[2])
 
-    
 
 if __name__ == '__main__':
-    if len (sys.argv) == 1:
+    if len(sys.argv) == 1:
         print('Enter parametrs for start pipline. For help use --help')
     else:
         main(sys.argv)
